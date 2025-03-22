@@ -1,0 +1,211 @@
+body{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: black;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: solid 4px pink;
+}
+ /*标题容器*/
+ #title-container{
+   position: fixed;
+   top: 0;
+   width: 100%;
+   height: 60px;
+   background-color: black;
+ }
+  /*标题样式*/
+  h1{
+    margin-top: 0;
+    margin-bottom: -10px;
+    font-six: 40px;
+    color: #f1707d;
+  }
+  h2{
+    margin-top: 0;
+    margin-bottom: -10px;
+    font-six: 20px;
+    color: #f1707d;
+  }
+#line{
+  margin-top: 15px;
+  height: 10px;
+  background-color: #f1707d;
+  border: dotted;
+}
+/*欢迎*/
+#home-container{
+  padding: 20px;
+  max-width: 600px;
+  box-sizing: border-box;
+  margin-top: 80px;
+  color: floralwhite;
+}
+img{
+  margin-top: 10px;
+  margin-bottom: 0px;
+  width: 500px;
+  height: auto;
+}
+#StartButton{
+  display: none;
+  background-color: #f1707d;
+  color: floralwhite;
+  border: none;
+  padding: 10px 20px;
+  font-size: 20px;
+  cursor: pointer;
+  margin-bottom: 60px;
+}
+#nameForm{
+  display: none;
+  margin-top: 0px;
+  margin-bottom: 60px;
+  padding: 10px 20px;
+}
+#playButton{
+  display: none;
+  background-color: #f1707d;
+  color: floralwhite;
+  border: none;
+  padding: 10px 20px;
+  font-size: 20px;
+  cursor: pointer;
+  margin-bottom: 60px;
+}
+#game{
+  height: 500px;
+  width: 800px;
+  border: 10px solid #f1707d;
+  position: relative;
+  display: none;
+}
+#box1{
+  height: 200px;
+  width: 50px;
+  background-color: #ffc7a9;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+#box2{
+  height: 200px;
+  width: 50px;
+  background-color: #b8d38f;
+  position: absolute;
+  left: 750px;
+  top: 0;
+}
+#box3{
+  height: 200px;
+  width: 50px;
+  background-color: #d8a5fe;
+  position: absolute;
+  left: 750px;
+  top: 300px;
+}
+#box4{
+  height: 200px;
+  width: 50px;
+  background-color: #b8f1ed;
+  position: absolute;
+  left: 0;
+  top: 250px;
+}
+#box5{
+  height: 200px;
+  width: 50px;
+  background-color: pink;
+  position: absolute;
+  left: 0;
+  top: 220px;
+}
+
+/*方块移动目标*/
+/*o*/
+#box11{
+  height: 200px;
+  width: 50px;
+  background-color: #ecd9cf;
+  position: absolute;
+  border: solid 5px #525252;
+  left: 310px;
+  top: 150px;
+}
+/*g*/
+#box12{
+  height: 200px;
+  width: 50px;
+  background-color: #cfdcbc;
+  position: absolute;
+  border: solid 5px #525252;
+  left: 370px;
+  top: 150px;
+}
+/*v*/
+#box13{
+  height: 200px;
+  width: 50px;
+  background-color: #dfceeb;
+  position: absolute;
+  border: solid 5px #525252;
+  left: 490px;
+  top: 150px;
+}
+/*b*/
+#box14{
+  height: 200px;
+  width: 50px;
+  background-color: #cbe7e5;
+  position: absolute;
+  border: solid 5px #525252;
+  left: 250px;
+  top: 150px;
+}
+/*p*/
+#box15{
+  height: 200px;
+  width: 50px;
+  background-color: #f3d6db;
+  position: absolute;
+  border: solid 5px #525252;
+  left: 430px;
+  top: 150px;
+}
+
+#ruleButton{
+  height: 50px;
+  width: 100px;
+  background-color: #c86f67;
+  color: floralwhite;
+  border: none;
+  padding: 10px 20px;
+  font-size: 20px;
+  position: absolute;
+  cursor: pointer;
+  left: 0;
+  top: 450px;
+}
+#fanishButton{
+  height: 50px;
+  width: 100px;
+  background-color: #c86f67;
+  color: floralwhite;
+  border: none;
+  padding: 10px 20px;
+  font-size: 20px;
+  position: absolute;
+  cursor: pointer;
+  left: 700px;
+  top: 450px;
+}
+#successMessage{
+  display:none;
+  color:#f1707d;
+  font-size:100px;
+  margin-bottom: 60px;
+}
