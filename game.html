@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Jigsaw puzzle</title>
+    <link rel="stylesheet" href="gamestyle.css">
+    <style type="text/css"></style>
+  </head>
+  <body>
+    <div id="title-container">
+        <h1>Jigsaw Puzzle</h1>
+        <h2>Welcome to the game world!</h2>
+        <div id="line">
+
+        </div>
+    </div>
+    <!--欢迎-->
+    <div id="home-container">
+      <img src="D:\A课程文件和作业备份\大二下\chuangyijiaohusheji\CreativeinteractionDesign_2025Spring\pingtu.png" alt="">
+
+      <button id="StartButton" >进入</button>
+      <div id="nameForm" style="display:none;">
+          <input type="text" id="nameInput" placeholder="写下你的名字吧！">
+      </div>
+      <button id="playButton" style="display: none;">开始游戏</button>
+    </div>
+
+    <!--游戏容器-->
+    <div id="game">
+
+      <div id="box11"></div>
+      <div id="box12"></div>
+      <div id="box13"></div>
+      <div id="box14"></div>
+      <div id="box15"></div>
+
+      <div id="box1" class="box1"></div>
+      <div id="box2" class="box2"></div>
+      <div id="box3"></div>
+      <div id="box4"></div>
+      <div id="box5"></div>
+
+      <button id="ruleButton" onclick="sayHello()" >规则</button>
+      <button id="fanishButton" >完成</button>
+
+    </div>
+    <div id="successMessage" >
+    !恭喜通关！
+    </div>
+
+   <script src="gamescript.js"></script>
+  </body>
+</html>
